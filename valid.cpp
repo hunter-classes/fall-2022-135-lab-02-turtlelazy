@@ -19,10 +19,9 @@ int main()
     while (number <= 0 || number >= 100){
         std::cout << "Please re-enter: ";
         std::cin >> number;
-        //std::cout << std::endl;
     }
 
-    std::cout << "Number squared is " << number * number << std::endl;
+    std::cout << "\nNumber squared is " << number * number << std::endl;
 
     return 0;
 }
