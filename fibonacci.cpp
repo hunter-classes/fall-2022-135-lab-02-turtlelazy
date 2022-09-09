@@ -22,8 +22,8 @@ int main(){
     }
     
     //The first negative number that appears is after the number "1836311903", which is "-1323752223." 
-    //This limit, however, begins to seem familiar when we think of the maximum number an integer variable can hold.
-    //I believe that it is possible the math ends up being done incorrectly as we approach this integer limit, resulting in "integer overflow" behaviour.
+    //This limit, however, begins to seem familiar when we think of the maximum number an integer variable can hold (which is around two billion)
+    //I believe that it is possible the math ends up being done incorrectly because we reached this integer limit, resulting in "integer overflow" behaviour.
 
     return 0;
 }
